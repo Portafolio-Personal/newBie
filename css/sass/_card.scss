@@ -1,0 +1,62 @@
+.container {
+    background-color: var(--neutral-white);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+    #perfumeMobile {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+    }
+    #perfumeDesktop {
+        display: none;
+        visibility: hidden;
+    }
+    .contenido {
+        padding: 20px;        
+        h6 {
+            color: var(--neutral-darkGrayishBlue);
+            font-family: 'Montserrat';
+            letter-spacing: 5px;
+        }
+        h1 {
+            color: var(--neutral-veryDarkBlue);
+            font-family: 'Fraunces';
+            font-size: 2rem;
+            padding: 10px 0;
+        }
+        p {
+            color: var(--neutral-darkGrayishBlue);
+            font-family: 'Montserrat';
+            font-weight: 500;
+        }
+        .price {
+            display: flex;
+            font-family: 'Fraunces';
+            align-items: center;
+            margin: 20px 0;
+            #priceCurrent {
+                color: var(--primary-darkCyan);
+                font-size: 2rem;
+                font-weight: 700;
+                padding-right: 15px;
+            }
+            #priceLast {
+                font-size: 0.6rem;
+                text-decoration: line-through;
+            }
+        }
+        button {
+            background-color: var(--primary-darkCyan);
+            border: 0;
+            border-radius: 5px;
+            color: var(--neutral-white);
+            display: block;
+            font-family: 'Montserrat';
+            margin: auto;
+            padding: 3.5% 0;
+            width: 98%;
+        }
+    }
+    
+}
