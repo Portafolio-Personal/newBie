@@ -98,7 +98,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    width: 50%;
+    width: 60%;
   }
   .container #perfumeDesktop {
     border-radius: 5px 0 0 5px;
